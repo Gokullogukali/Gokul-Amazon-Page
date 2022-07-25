@@ -32,7 +32,7 @@ public class Test {
 		btnContinue.click();
 		
 		WebElement textPassword = driver.findElement(By.xpath("//input[@id='ap_password']"));
-		textPassword.sendKeys("kali@9034");
+		textPassword.sendKeys("Naveen1234");
 		
 		WebElement btnSubmit = driver.findElement(By.xpath("//input[@id='signInSubmit']"));
 		btnSubmit.click();
