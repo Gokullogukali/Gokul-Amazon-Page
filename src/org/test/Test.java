@@ -1,3 +1,4 @@
+
 package org.test;
 
 import org.openqa.selenium.By;
@@ -31,7 +32,7 @@ public class Test {
 		btnContinue.click();
 		
 		WebElement textPassword = driver.findElement(By.xpath("//input[@id='ap_password']"));
-		textPassword.sendKeys("Gk@9033");
+		textPassword.sendKeys("kali@9033");
 		
 		WebElement btnSubmit = driver.findElement(By.xpath("//input[@id='signInSubmit']"));
 		btnSubmit.click();
